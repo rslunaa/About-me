@@ -2,19 +2,23 @@
 import { createViewModel } from './main-view-model';
 import { Frame } from '@nativescript/core';
 
-// export function onNavigatingTo(args) {
-//   const page = args.object;
-//   page.bindingContext = createViewModel();
-// }
+export function onNavigatingTo(args) {
+  const page = args.object;
+  page.bindingContext = createViewModel();
+}
 
 exports.onAboutMeTap = () => {
-  Frame.topmost().navigate('aboutme-page');
+  Frame.topmost().navigate('aboutme/aboutme-page');
 };
 
 exports.onSkillsTap = () => {
-  Frame.topmost().navigate('skills-page');
+  Frame.topmost().navigate('skills/skills-page');
 };
 
 exports.onContactMeTap = () => {
-  Frame.topmost().navigate('contactme-page');
+  Frame.topmost().navigate('contactme/contactme-page');
+};
+
+exports.onGoBackTap = () => {
+  Frame.topmost().goBack();
 };
