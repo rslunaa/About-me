@@ -14,7 +14,7 @@
         <Button text="About Me" tap="onAboutMeTap" class="main-button about-button"></Button>
         <Button text="Skills" tap="onSkillsTap" class="main-button skills-button"></Button>
         <Button text="Contact Me" tap="onContactMeTap" class="main-button contact-button"></Button>
-        <Button text="Go Back" tap="onGoBackTap" class="go-back-button"></Button>
+        <Button text="Go Back" tap="onGoBackTap" class="main-button go-back-button"></Button>
     </StackLayout>
 
         <!-- Content Section -->
