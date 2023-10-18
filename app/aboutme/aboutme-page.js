@@ -1,9 +1,8 @@
-// aboutme-page.js
-export function onNavigatingTo(args) {
-  const page = args.object;
-  
-}
+const { Page } = require("@nativescript/core");
 
-exports.onGoBackTap = () => {
-  Frame.topmost().goBack();
-};
+exports.onGoBackTap = args => {
+  const button = args.object
+  const page = button.page 
+  
+  Page.frame.goBack('main-page');
+}

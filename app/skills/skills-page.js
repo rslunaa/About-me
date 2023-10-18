@@ -1,10 +1,7 @@
-// skills-page.js
-export function onNavigatingTo(args) {
-  const page = args.object;
+exports.onGoBackTap = args => {
+
+  const button = args.object
+  const page = button.page 
   
+  Page.frame.goBack('main-page');
 }
-
-
-exports.onGoBackTap = () => {
-  Frame.topmost().goBack();
-};

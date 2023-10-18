@@ -1,8 +1,7 @@
-// contactme-page.js
-export function onNavigatingTo(args) {
-  const page = args.object;
-}
+exports.onGoBackTap = args => {
 
-exports.onGoBackTap = () => {
-  Frame.topmost().goBack();
-};
+  const button = args.object
+  const page = button.page 
+  
+  Page.frame.goBack('main-page');
+}
