@@ -12,14 +12,14 @@ exports.onAboutMeTap = args => {
   const page = button.page 
 
   page.frame.navigate('aboutme/aboutme-page')
-};
+}
 
 exports.onSkillsTap = () => {
   const button = args.object
   const page = button.page 
 
   page.frame.navigate('skills/skills-page')
-};
+}
 
 exports.onContactMeTap = () => {
   const button = args.object
@@ -27,8 +27,8 @@ exports.onContactMeTap = () => {
 
   page.frame.navigate('contactme/contactme-page')
   
-};
+}
 
 exports.onGoBackTap = () => {
   Frame.topmost().goBack();
-};
+}
