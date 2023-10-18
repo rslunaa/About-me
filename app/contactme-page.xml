@@ -1,4 +1,6 @@
 <!-- contactme-page.xml -->
 <Page xmlns="http://www.nativescript.org/tns.xsd" class="page">
-    <!-- ... Your contact me page content ... -->
+
+    <Button text="Go Back" tap="onGoBackTap" class="go-back-button"></Button>
+
 </Page>

@@ -1,4 +1,7 @@
 <!-- aboutme-page.xml -->
 <Page xmlns="http://www.nativescript.org/tns.xsd" class="page">
     <!-- ... Your about me page content ... -->
+
+    <!-- Go Back Button -->
+    <Button text="Go Back" tap="onGoBackTap" class="go-back-button"></Button>
 </Page>
