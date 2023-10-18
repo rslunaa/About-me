@@ -1,7 +1,11 @@
 <!-- aboutme-page.xml -->
 <Page xmlns="http://www.nativescript.org/tns.xsd" class="page">
     <!-- ... Your about me page content ... -->
-
+<StackLayout row="0" class="header">
+            <ScrollView>
+                <Label text="Hello World" class="header-label"></Label>
+            </ScrollView>
+        </StackLayout>
     <!-- Go Back Button -->
     <Button text="Go Back" tap="onGoBackTap" class="go-back-button"></Button>
 </Page>
