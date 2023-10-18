@@ -1,4 +1,3 @@
-// main-page.js
 import { createViewModel } from './main-view-model';
 import { Frame } from '@nativescript/core';
 
@@ -8,27 +7,29 @@ export function onNavigatingTo(args) {
 }
 
 exports.onAboutMeTap = args => {
-  const button = args.object
-  const page = button.page 
+  const button = args.object;
+  const page = button.page;
 
-  page.frame.navigate('aboutme/aboutme-page')
-}
+  page.frame.navigate('aboutme/aboutme-page');
+};
 
-exports.onSkillsTap = () => {
-  const button = args.object
-  const page = button.page 
+exports.onSkillsTap = args => {
+  const button = args.object;
+  const page = button.page;
 
-  page.frame.navigate('skills/skills-page')
-}
+  page.frame.navigate('skills/skills-page');
+};
 
-exports.onContactMeTap = () => {
-  const button = args.object
-  const page = button.page 
+exports.onContactMeTap = args => {
+  const button = args.object;
+  const page = button.page;
 
-  page.frame.navigate('contactme/contactme-page')
-  
-}
+  page.frame.navigate('contactme/contactme-page');
+};
 
-exports.onGoBackTap = () => {
-  Frame.topmost().goBack();
-}
+exports.onGoBackTap = args => {
+  const button = args.object;
+  const page = button.page;
+
+  page.frame.goBack();
+};

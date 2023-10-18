@@ -1,7 +1,8 @@
-exports.onGoBackTap = args => {
+const { Frame } = require('@nativescript/core');
 
-  const button = args.object
-  const page = button.page 
-  
-  Page.frame.goBack('main-page');
-}
+exports.onGoBackTap = args => {
+  const button = args.object;
+  const page = button.page;
+
+  Frame.topmost().goBack();
+};
