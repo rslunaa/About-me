@@ -7,16 +7,26 @@ export function onNavigatingTo(args) {
   page.bindingContext = createViewModel();
 }
 
-exports.onAboutMeTap = () => {
-  Frame.topmost().navigate('aboutme/aboutme-page');
+exports.onAboutMeTap = args => {
+  const button = args.object
+  const page = button.page 
+
+  page.frame.navigate('aboutme/aboutme-page')
 };
 
 exports.onSkillsTap = () => {
-  Frame.topmost().navigate('skills/skills-page');
+  const button = args.object
+  const page = button.page 
+
+  page.frame.navigate('skills/skills-page')
 };
 
 exports.onContactMeTap = () => {
-  Frame.topmost().navigate('contactme/contactme-page');
+  const button = args.object
+  const page = button.page 
+
+  page.frame.navigate('contactme/contactme-page')
+  
 };
 
 exports.onGoBackTap = () => {

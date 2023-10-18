@@ -1,4 +1,7 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd" class="page">
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded = "onLoaded" class="page">
+    <Page.actionBar>
+    <actionBar title="Ricardo Luna"></actionBar>
+    </Page.actionBar>
     <GridLayout rows="auto, auto, *">
         <!-- Snapshot and Name Section -->
         <StackLayout row="0" class="header">
