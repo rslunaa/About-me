@@ -1,11 +1,25 @@
-<!-- aboutme-page.xml -->
-<Page xmlns="http://www.nativescript.org/tns.xsd" class="page">
-    <!-- ... Your about me page content ... -->
-<StackLayout row="0" class="header">
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded = "onLoaded" class="page">
+    <Page.actionBar>
+    <actionBar title="Ricardo Luna"></actionBar>
+    </Page.actionBar>
+    <GridLayout rows="auto, auto, *">
+        <!-- Snapshot and Name Section -->
+        <StackLayout row="0" class="header">
             <ScrollView>
-                <Label text="Hello World" class="header-label"></Label>
+                <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
+                <Label text="About Me" class="header-label"></Label>
             </ScrollView>
         </StackLayout>
-    <!-- Go Back Button -->
-    <Button text="Go Back" tap="onGoBackTap" class="go-back-button"></Button>
+
+        <!-- Buttons Section -->
+<StackLayout row="1" class="button-container">
+                <Button text="Go Back" onTap="onGoBackTap" class="main-button goback-button"></Button>
+    </StackLayout>
+
+        <!-- Content Section -->
+        <StackLayout row="2" class="content">
+            <!-- Add additional content here if needed -->
+        </StackLayout>
+    </GridLayout>
 </Page>
+
