@@ -6,30 +6,30 @@ export function onNavigatingTo(args) {
   page.bindingContext = createViewModel();
 }
 
-exports.onAboutMeTap = args => {
+export function onAboutMeTap (args) {
   const button = args.object;
   const page = button.page;
 
   topmost().navigate('aboutme/aboutme-page');
 };
 
-exports.onSkillsTap = args => {
+export function onSkillsTap (args) {
   const button = args.object;
   const page = button.page;
 
   topmost().navigate('skills/skills-page');
 };
 
-exports.onContactMeTap = args => {
+export function onContactMeTap (args) {
   const button = args.object;
   const page = button.page;
 
   topmost().navigate('contactme/contactme-page');
 };
 
-exports.onGoBackTap = args => {
+export function onGoBackTap (args) {
   const button = args.object;
   const page = button.page;
 
-  topmost().goBack();
+  topmost().goBack('main-page');
 };

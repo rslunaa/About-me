@@ -14,10 +14,10 @@
 
         <!-- Buttons Section -->
 <StackLayout row="1" class="button-container">
-        <Button text="About Me" tap="onAboutMeTap" class="main-button about-button"></Button>
-        <Button text="Skills" tap="onSkillsTap" class="main-button skills-button"></Button>
-        <Button text="Contact Me" tap="onContactMeTap" class="main-button contact-button"></Button>
-        <Button text="Go Back" tap="onGoBackTap" class="main-button goback-button"></Button>
+        <Button text="About Me" onTap="onAboutMeTap" class="main-button about-button"></Button>
+        <Button text="Skills" onTap="onSkillsTap" class="main-button skills-button"></Button>
+        <Button text="Contact Me" onTap="onContactMeTap" class="main-button contact-button"></Button>
+        <Button text="Go Back" onTap="onGoBackTap" class="main-button goback-button"></Button>
     </StackLayout>
 
         <!-- Content Section -->
