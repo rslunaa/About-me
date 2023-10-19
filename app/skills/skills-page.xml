@@ -1,6 +1,6 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded = "onLoaded" class="page">
     <Page.actionBar>
-    <actionBar title="Ricardo Luna"></actionBar>
+    <actionBar title="Go Back"></actionBar>
     </Page.actionBar>
     <GridLayout rows="auto, auto, *">
         <!-- Snapshot and Name Section -->
