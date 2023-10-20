@@ -8,7 +8,7 @@
         <StackLayout row="0" class="header">
             <Label text="About Me" class="header-label"></Label>
             <ScrollView>
-                <Image src="~/app/Snapshot/LunaRicardoProfessionalPhoto.jpeg" width="100%" class="snapshot"></Image>
+                <Image src="~/snapshot/LunaRicardoProfessionalPhoto.jpg" width="100%" class="snapshot"></Image>
             </ScrollView>
         </StackLayout>
 
