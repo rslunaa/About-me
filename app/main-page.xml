@@ -6,7 +6,7 @@
         <!-- Snapshot and Name Section -->
         <StackLayout row="0" class="header">
             <ScrollView>
-                <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
+                <Image src="~/app/Snapshot/LunaRicardoProfessionalPhoto.jpeg" width="100%" class="snapshot"></Image>
                 <Label text="Ricardo Luna" class="header-label"></Label>
                 <Label text="CIS Student/Tutor" class="subheader-label"></Label>
             </ScrollView>
