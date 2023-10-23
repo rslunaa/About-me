@@ -12,6 +12,21 @@
             </ScrollView>
         </StackLayout>
 
+<!-- Content Section -->
+<StackLayout row="2" class="content">
+    <Label text="Passionate about leveraging the power of information technology to drive social and economic development, with a dedicated focus on empowering emerging communities and fostering growth." class="bio"></Label>
+
+    <Label text="Education" class="section-header"></Label>
+    <Label text="B.S. Computer Information Systems" class="education"></Label>
+    <Label text="B.S. International Development - Management" class="education"></Label>
+    <Label text="A.A. Interdisciplinary Studies" class="education"></Label>
+
+    <Label text="Languages" class="section-header"></Label>
+    <Label text="English" class="language"></Label>
+    <Label text="Spanish" class="language"></Label>
+    <!-- Add additional languages as needed -->
+</StackLayout>
+
         <!-- Buttons Section -->
         <StackLayout row="1" class="button-container">
             <Button text="Go Back" onTap="onGoBackTap" class="main-button goback-button"></Button>
