@@ -38,7 +38,6 @@
             <Button text="Go Back" onTap="onGoBackTap" class="main-button goback-button"></Button>
         </StackLayout>
 
-        Content Section
         <StackLayout row="5" class="content">
             <!-- Add additional content here if needed -->
         </StackLayout>
