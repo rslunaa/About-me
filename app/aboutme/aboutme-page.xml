@@ -3,43 +3,33 @@
         <actionBar title="Ricardo Luna"></actionBar>
     </Page.actionBar>
 
-    <GridLayout rows="auto, auto, *">
+    <GridLayout rows="auto, *, auto">
         <!-- Snapshot and Name Section -->
-        <StackLayout row="0" class="header">
+        <StackLayout row="0" class="header" verticalAlignment="center" horizontalAlignment="center">
             <Label text="About Me" class="header-label"></Label>
             <ScrollView>
                 <Image src="~/snapshot/LunaRicardoProfessionalPhoto.jpg" width="100%" class="snapshot"></Image>
             </ScrollView>
         </StackLayout>
 
-<!-- Content Section -->
-<StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center">
-    <Label textWrap="true" text="Passionate about leveraging the power of information technology to drive social and economic development, with a dedicated focus on empowering emerging communities and fostering growth." class="bio" horizontalAlignment="center" fontSize="16"></Label>
-</StackLayout>
+        <!-- Content Section -->
+        <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center">
+            <Label textWrap="true" text="Passionate about leveraging the power of information technology to drive social and economic development, with a dedicated focus on empowering emerging communities and fostering growth." class="bio" horizontalAlignment="center" fontSize="16" fontWeight="bold" margin="10"></Label>
 
-<!-- Content Section -->
-<StackLayout row="2" class="content" verticalAlignment="center" horizontalAlignment="center">
-    <Label text="Education" class="section-header" horizontalAlignment="center" fontSize="18" fontWeight="bold"></Label>
-    <Label text="B.S. Computer Information Systems" class="education" horizontalAlignment="center"></Label>
-    <Label text="B.S. International Development - Management" class="education" horizontalAlignment="center"></Label>
-    <Label text="A.A. Interdisciplinary Studies" class="education" horizontalAlignment="center"></Label>
-</StackLayout>
+            <Label text="Education" class="section-header" fontSize="18" fontWeight="bold"></Label>
+            <Label text="B.S. Computer Information Systems" class="education"></Label>
+            <Label text="B.S. International Development - Management" class="education"></Label>
+            <Label text="A.A. Interdisciplinary Studies" class="education"></Label>
 
-<!-- Content Section -->
-<StackLayout row="3" class="content" verticalAlignment="center" horizontalAlignment="center">
-    <Label text="Languages" class="section-header" horizontalAlignment="center" fontSize="18" fontWeight="bold"></Label>
-    <Label text="English" class="language" horizontalAlignment="center"></Label>
-    <Label text="Spanish" class="language" horizontalAlignment="center"></Label>
-    <!-- Add additional languages as needed -->
-</StackLayout>
-
-        <!-- Buttons Section -->
-        <StackLayout row="4" class="button-container">
-            <Button text="Go Back" onTap="onGoBackTap" class="main-button goback-button"></Button>
+            <Label text="Languages" class="section-header" fontSize="18" fontWeight="bold" marginTop="10"></Label>
+            <Label text="English" class="language"></Label>
+            <Label text="Spanish" class="language"></Label>
+            <!-- Add additional languages as needed -->
         </StackLayout>
 
-        <StackLayout row="5" class="content">
-            <!-- Add additional content here if needed -->
+        <!-- Buttons Section -->
+        <StackLayout row="2" class="button-container">
+            <Button text="Go Back" onTap="onGoBackTap" class="main-button goback-button"></Button>
         </StackLayout>
     </GridLayout>
 </Page>
