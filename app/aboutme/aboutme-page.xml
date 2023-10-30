@@ -9,7 +9,7 @@
             <StackLayout class="snapshot-container" marginTop="0">
                 <Image src="~/snapshot/LunaRicardoProfessionalPhoto.jpg" width="150" height="150" class="snapshot" borderRadius="75"></Image>
             </StackLayout>
-            <Label text="About Me" class="header-label" marginTop="-75" fontSize="20" horizontalAlignment="center"></Label>
+            <Label text="About Me" class="header-label" marginTop="-45" fontSize="20" horizontalAlignment="center"></Label>
         </StackLayout>
         <!-- Content Section -->
         <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center">
