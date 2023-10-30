@@ -5,7 +5,7 @@
 
     <GridLayout rows="auto, *, auto">
         <!-- Snapshot and Name Section -->
-        <StackLayout row="0" class="header" verticalAlignment="top" horizontalAlignment="center">
+        <StackLayout row="0" class="header" verticalAlignment="top" horizontalAlignment="center" marginTop="10">
             <StackLayout class="snapshot-container">
                 <Image src="~/snapshot/LunaRicardoProfessionalPhoto.jpg" width="150" height="150" class="snapshot" borderRadius="100"></Image>
             </StackLayout>
@@ -22,7 +22,7 @@
             <Label text="A.A. Interdisciplinary Studies" class="education" horizontalAlignment="center"></Label>
 
             <Label text="Languages" class="section-header" fontSize="18" fontWeight="bold" marginTop="10" horizontalAlignment="center"></Label>
-            <FlexboxLayout class="languages-container" flexDirection="row" justifyContent="center" alignItems="center">
+            <FlexboxLayout class="languages-container" flexDirection="row" justifyContent="center" alignItems="center" marginTop="10">
                 <Image src="~/languages/Eng.jpg" width="60" height="60" class="languages" borderRadius="60" margin="03"></Image>
                 <Image src="~/languages/Esp.png" width="60" height="60" class="languages" borderRadius="60" margin="03"></Image>
                 <Image src="~/languages/Port.jpg" width="60" height="60" class="languages" borderRadius="60" margin="03"></Image>
