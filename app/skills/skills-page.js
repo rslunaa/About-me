@@ -1,11 +1,9 @@
-
-function onGoBackTap(args) {
-  const button = args.object;
-  const page = button.page;
-
-  const topmost = frameModule.topmost();
-  topmost.navigate('main-page');
-}
+export function onGoBackTap (args) {
+    const button = args.object;
+    const page = button.page;
+  
+    page.frame.navigate('main-page');
+  };
 
 function onNavigatingTo(args) {
     const page = args.object;
