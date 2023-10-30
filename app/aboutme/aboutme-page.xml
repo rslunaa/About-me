@@ -5,16 +5,16 @@
 
     <GridLayout rows="auto, *, auto">
         <!-- Snapshot and Name Section -->
-        <StackLayout row="0" class="header" verticalAlignment="center" horizontalAlignment="center">
+        <StackLayout row="0" class="header" verticalAlignment="top" horizontalAlignment="center">
             <StackLayout class="snapshot-container">
-                <Image src="~/snapshot/LunaRicardoProfessionalPhoto.jpg" width="150" height="150" class="snapshot" borderRadius="100" marginTop="10"></Image>
+                <Image src="~/snapshot/LunaRicardoProfessionalPhoto.jpg" width="150" height="150" class="snapshot" borderRadius="100"></Image>
             </StackLayout>
-            <Label text="About Me" class="header-label" fontSize="20" marginTop="02" horizontalAlignment="center"></Label>
+            <Label text="About Me" class="header-label" fontSize="20" marginTop="0" horizontalAlignment="center"></Label>
         </StackLayout>
 
         <!-- Content Section -->
         <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center">
-            <Label textWrap="true" text="Passionate about leveraging the power of information technology to drive social and economic development, with a dedicated focus on empowering emerging communities and fostering growth." class="bio" marginTop="10" horizontalAlignment="center" margin="10" justifyContent="center"></Label>
+            <Label textWrap="true" text="Passionate about leveraging the power of information technology to drive social and economic development, with a dedicated focus on empowering emerging communities and fostering growth." class="bio" marginTop="10" horizontalAlignment="center" margin="10" textAlignment="center"></Label>
 
             <Label text="Education" class="section-header" fontSize="18" fontWeight="bold" marginTop="10" horizontalAlignment="center"></Label>
             <Label text="B.S. Computer Information Systems" class="education" horizontalAlignment="center"></Label>
@@ -22,7 +22,7 @@
             <Label text="A.A. Interdisciplinary Studies" class="education" horizontalAlignment="center"></Label>
 
             <Label text="Languages" class="section-header" fontSize="18" fontWeight="bold" marginTop="10" horizontalAlignment="center"></Label>
-                <FlexboxLayout class="languages-container" flexDirection="row" justifyContent="center" alignItems="center">
+            <FlexboxLayout class="languages-container" flexDirection="row" justifyContent="center" alignItems="center">
                 <Image src="~/languages/Eng.jpg" width="60" height="60" class="languages" borderRadius="60" margin="03"></Image>
                 <Image src="~/languages/Esp.png" width="60" height="60" class="languages" borderRadius="60" margin="03"></Image>
                 <Image src="~/languages/Port.jpg" width="60" height="60" class="languages" borderRadius="60" margin="03"></Image>
