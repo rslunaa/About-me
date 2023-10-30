@@ -23,9 +23,9 @@
 
             <Label text="Languages" class="section-header" fontSize="18" fontWeight="bold" marginTop="10" horizontalAlignment="center"></Label>
                 <FlexboxLayout class="languages-container" flexDirection="row" justifyContent="center" alignItems="center">
-                <Image src="~/languages/Eng.jpg" width="90" height="90" class="languages" borderRadius="30"></Image>
-                <Image src="~/languages/Esp.png" width="90" height="90" class="languages" borderRadius="30"></Image>
-                <Image src="~/languages/Port.jpg" width="90" height="90" class="languages" borderRadius="30"></Image>
+                <Image src="~/languages/Eng.jpg" width="60" height="60" class="languages" borderRadius="60" margin="01"></Image>
+                <Image src="~/languages/Esp.png" width="60" height="60" class="languages" borderRadius="60" margin="01"></Image>
+                <Image src="~/languages/Port.jpg" width="60" height="60" class="languages" borderRadius="60" margin="01"></Image>
             </FlexboxLayout>
         </StackLayout>
 
