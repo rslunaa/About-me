@@ -1,32 +1,35 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd" loaded = "onLoaded" class="page">
+<!-- skills-page.xml -->
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" class="page">
     <Page.actionBar>
-    <actionBar title="Ricardo Luna"></actionBar>
+        <ActionBar title="Ricardo Luna"></ActionBar>
     </Page.actionBar>
-    <GridLayout rows="auto, auto, *">
+
+    <GridLayout rows="auto, *, auto">
         <!-- Snapshot and Name Section -->
         <StackLayout row="0" class="header">
             <ScrollView>
-                <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
-                <Label text="Skills" class="header-label"></Label>
+                <GridLayout rows="auto, auto">
+                    <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
+                    <Label text="Skills" class="header-label"></Label>
+                </GridLayout>
             </ScrollView>
-                <ListView items="{{ skills }}">
-        <ListView.itemTemplate>
-            <GridLayout class="skill-item" rows="auto">
-                <Label text="{{ category }}" class="skill-category"></Label>
-                <Label text="{{ skill }}" class="skill-name"></Label>
-            </GridLayout>
-        </ListView.itemTemplate>
+        </StackLayout>
+
+        <!-- Content Section -->
+        <StackLayout row="1" class="content">
+            <ListView items="{{ skills }}">
+                <ListView.itemTemplate>
+                    <GridLayout class="skill-item" rows="auto">
+                        <Label text="{{ category }}" class="skill-category"></Label>
+                        <Label text="{{ skill }}" class="skill-name"></Label>
+                    </GridLayout>
+                </ListView.itemTemplate>
+            </ListView>
         </StackLayout>
 
         <!-- Buttons Section -->
-<StackLayout row="1" class="button-container">
-                <Button text="Go Back" onTap="onGoBackTap" class="main-button goback-button"></Button>
-    </StackLayout>
-
-        <!-- Content Section -->
-        <StackLayout row="2" class="content">
-            <!-- Add additional content here if needed -->
+        <StackLayout row="2" class="button-container">
+            <Button text="Go Back" onTap="onGoBackTap" class="main-button goback-button"></Button>
         </StackLayout>
     </GridLayout>
 </Page>
-
