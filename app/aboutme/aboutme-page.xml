@@ -6,10 +6,10 @@
     <GridLayout rows="auto, *, auto">
         <!-- Snapshot and Name Section -->
         <StackLayout row="0" class="header" verticalAlignment="top" horizontalAlignment="center" marginTop="10">
+                        <Label text="About Me" class="header-label" fontSize="20" marginTop="10" horizontalAlignment="center"></Label>
             <StackLayout class="snapshot-container">
                 <Image src="~/snapshot/LunaRicardoProfessionalPhoto.jpg" width="150" height="150" class="snapshot" borderRadius="100"></Image>
             </StackLayout>
-            <Label text="About Me" class="header-label" fontSize="20" marginTop="10" horizontalAlignment="center"></Label>
         </StackLayout>
         <!-- Content Section -->
         <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center">
