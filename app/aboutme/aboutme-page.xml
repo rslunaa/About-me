@@ -22,10 +22,14 @@
             <Label text="A.A. Interdisciplinary Studies" class="education" horizontalAlignment="center"></Label>
 
             <Label text="Languages" class="section-header" fontSize="18" fontWeight="bold" marginTop="10" horizontalAlignment="center"></Label>
-            <Label text="English" class="language" horizontalAlignment="center"></Label>
-            <Label text="Spanish" class="language" horizontalAlignment="center"></Label>
-            <!-- Add additional languages as needed -->
+                <FlexboxLayout class="languages-container" flexDirection="row" justifyContent="center" alignItems="center">
+                <Image src="~/languages/eng.jpeg" width="100" height="100" class="languages" borderRadius="50"></Image>
+                <Image src="~/languages/Esp.png" width="100" height="100" class="languages" borderRadius="50"></Image>
+                <Image src="~/languages/Port.jpg" width="100" height="100" class="languages" borderRadius="50"></Image>
+            </FlexboxLayout>
         </StackLayout>
+
+        
 
         <!-- Buttons Section -->
         <StackLayout row="2" class="button-container">
