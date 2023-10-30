@@ -6,7 +6,6 @@
 .header {
   padding: 20;
   text-align: center;
-  margin-bottom: 10;
 }
 
 .subheader-label {
@@ -25,14 +24,6 @@
   color: white;
   font-size: 24;
   font-weight: bold;
-  margin-top: 10; /* Specific marginTop for header-label */
-}
-
-.section-header {
-  color: white;
-  font-size: 18;
-  font-weight: bold;
-  margin-top: 10; /* Specific marginTop for section-header */
 }
 
 .button-container {
@@ -72,4 +63,3 @@
 
 /* .content {
   /* Add styles for additional content if needed */
-
