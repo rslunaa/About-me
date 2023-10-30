@@ -9,7 +9,7 @@
             <StackLayout class="snapshot-container">
                 <Image src="~/snapshot/LunaRicardoProfessionalPhoto.jpg" width="150" height="150" class="snapshot" borderRadius="75"></Image>
             </StackLayout>
-            <Label text="About Me" class="header-label" fontSize="20" marginTop="10" horizontalAlignment="center"></Label>
+            <Label text="About Me" class="header-label" fontSize="20" marginTop="05" horizontalAlignment="center"></Label>
         </StackLayout>
 
         <!-- Content Section -->
@@ -23,7 +23,7 @@
 
             <Label text="Languages" class="section-header" fontSize="18" fontWeight="bold" marginTop="10" horizontalAlignment="center"></Label>
                 <FlexboxLayout class="languages-container" flexDirection="row" justifyContent="center" alignItems="center">
-                <Image src="~/languages/eng.jpeg" width="100" height="100" class="languages" borderRadius="50"></Image>
+                <Image src="~/languages/Eng.jpg" width="100" height="100" class="languages" borderRadius="50"></Image>
                 <Image src="~/languages/Esp.png" width="100" height="100" class="languages" borderRadius="50"></Image>
                 <Image src="~/languages/Port.jpg" width="100" height="100" class="languages" borderRadius="50"></Image>
             </FlexboxLayout>
