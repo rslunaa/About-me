@@ -8,13 +8,13 @@
         <!-- Content Section -->
         <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center">
             <StackLayout class="snapshot-container">
-                <Image src="~/snapshot/LunaRicardoProfessionalPhoto.jpg" width="150" height="150" class="snapshot" borderRadius="100" marginTop="10"></Image>
+                <Image src="~/snapshot/LunaRicardoProfessionalPhoto.jpg" width="150" height="150" class="snapshot" borderRadius="100" marginTop="05"></Image>
             </StackLayout>
-            <Label text="About Me" class="header-label" fontSize="20" marginTop="0" horizontalAlignment="center"></Label>
+            <Label text="About Me" class="header-label" fontSize="20" marginTop="10" horizontalAlignment="center"></Label>
             <Label textWrap="true" text="Passionate about leveraging the power of information technology to drive social and economic development, with a dedicated focus on empowering emerging communities and fostering growth." class="bio" marginTop="2" horizontalAlignment="center" margin="10" textAlignment="center"></Label>
 
             <Label text="Education" class="section-header" fontSize="18" fontWeight="bold" marginTop="10" horizontalAlignment="center"></Label>
-            <Label text="B.S. Computer Information Systems" class="education" horizontalAlignment="center"></Label>
+            <Label text="B.S. Computer Information Systems" class="education" horizontalAlignment="center" marginTop="05"></Label>
             <Label text="B.S. International Development - Management" class="education" horizontalAlignment="center"></Label>
             <Label text="A.A. Interdisciplinary Studies" class="education" horizontalAlignment="center"></Label>
 
