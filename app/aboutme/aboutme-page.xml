@@ -7,7 +7,7 @@
         <!-- Snapshot and Name Section -->
         <StackLayout row="0" class="header" verticalAlignment="center" horizontalAlignment="center">
             <StackLayout class="snapshot-container">
-                <Image src="~/snapshot/LunaRicardoProfessionalPhoto.jpg" width="150" height="150" class="snapshot" borderRadius="100"></Image>
+                <Image src="~/snapshot/LunaRicardoProfessionalPhoto.jpg" width="150" height="150" class="snapshot" borderRadius="100" marginTop="10"></Image>
             </StackLayout>
             <Label text="About Me" class="header-label" fontSize="20" marginTop="02" horizontalAlignment="center"></Label>
         </StackLayout>
