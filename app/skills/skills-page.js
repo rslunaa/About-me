@@ -1,6 +1,3 @@
-// skills-page.js
-const observableModule = require("tns-core-modules/data/observable");
-const frameModule = require("tns-core-modules/ui/frame");
 
 function onGoBackTap(args) {
   const button = args.object;
