@@ -6,21 +6,22 @@
     <GridLayout rows="auto, *, auto">
         <!-- Snapshot and Name Section -->
         <StackLayout row="0" class="header" verticalAlignment="center" horizontalAlignment="center">
-            <StackLayout class="snapshot-container" marginTop="0">
+            <StackLayout class="snapshot-container">
                 <Image src="~/snapshot/LunaRicardoProfessionalPhoto.jpg" width="150" height="150" class="snapshot" borderRadius="75"></Image>
             </StackLayout>
-            <Label text="About Me" class="header-label" marginTop="-185" fontSize="20" horizontalAlignment="center"></Label>
+            <Label text="About Me" class="header-label" fontSize="20" horizontalAlignment="center"></Label>
         </StackLayout>
-        <!-- Content Section -->
-        <StackLayout row="1" class="content" marginTop="-205" verticalAlignment="center" horizontalAlignment="center">
-            <Label textWrap="true" text="Passionate about leveraging the power of information technology to drive social and economic development, with a dedicated focus on empowering emerging communities and fostering growth." class="bio" marginTop="-10" horizontalAlignment="center" margin="20"></Label>
 
-            <Label text="Education" class="section-header" verticalAlignment="center" horizontalAlignment="center" fontSize="18" fontWeight="bold"></Label>
+        <!-- Content Section -->
+        <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center">
+            <Label textWrap="true" text="Passionate about leveraging the power of information technology to drive social and economic development, with a dedicated focus on empowering emerging communities and fostering growth." class="bio" marginTop="10" horizontalAlignment="center" margin="20"></Label>
+
+            <Label text="Education" class="section-header" fontSize="18" fontWeight="bold" margin="10" horizontalAlignment="center"></Label>
             <Label text="B.S. Computer Information Systems" class="education" horizontalAlignment="center"></Label>
             <Label text="B.S. International Development - Management" class="education" horizontalAlignment="center"></Label>
             <Label text="A.A. Interdisciplinary Studies" class="education" horizontalAlignment="center"></Label>
 
-            <Label text="Languages" class="section-header" verticalAlignment="center" horizontalAlignment="center" fontSize="18" fontWeight="bold" marginTop="10"></Label>
+            <Label text="Languages" class="section-header" fontSize="18" fontWeight="bold" marginTop="10" horizontalAlignment="center"></Label>
             <Label text="English" class="language" horizontalAlignment="center"></Label>
             <Label text="Spanish" class="language" horizontalAlignment="center"></Label>
             <!-- Add additional languages as needed -->
