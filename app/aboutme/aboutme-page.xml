@@ -9,10 +9,10 @@
             <StackLayout class="snapshot-container" marginTop="0">
                 <Image src="~/snapshot/LunaRicardoProfessionalPhoto.jpg" width="150" height="150" class="snapshot" borderRadius="75"></Image>
             </StackLayout>
-            <Label text="About Me" class="header-label" marginTop="-155" fontSize="20" horizontalAlignment="center"></Label>
+            <Label text="About Me" class="header-label" marginTop="-185" fontSize="20" horizontalAlignment="center"></Label>
         </StackLayout>
         <!-- Content Section -->
-        <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center">
+        <StackLayout row="1" class="content" marginTop="-205" verticalAlignment="center" horizontalAlignment="center">
             <Label textWrap="true" text="Passionate about leveraging the power of information technology to drive social and economic development, with a dedicated focus on empowering emerging communities and fostering growth." class="bio" marginTop="-10" horizontalAlignment="center" margin="20"></Label>
 
             <Label text="Education" class="section-header" verticalAlignment="center" horizontalAlignment="center" fontSize="18" fontWeight="bold"></Label>
