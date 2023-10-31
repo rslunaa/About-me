@@ -1,18 +1,18 @@
 // skills-page.js
-const observableModule = require("tns-core-modules/data/observable");
-const frameModule = require("tns-core-modules/ui/frame");
+import { fromObject } from "@nativescript/core/data/observable";
+import { topmost } from "@nativescript/core/ui/frame";
 
 export function onGoBackTap(args) {
     const button = args.object;
     const page = button.page;
 
-    const topmost = frameModule.topmost();
-    topmost.navigate('main-page');
+    const topmostFrame = topmost();
+    topmostFrame.navigate('main-page');
 }
 
 function onNavigatingTo(args) {
     const page = args.object;
-    const viewModel = observableModule.fromObject({
+    const viewModel = fromObject({
         skills: [
             { category: "Programming Skills", skill: "JAVA" },
             { category: "Programming Skills", skill: "PYTHON" },
@@ -30,5 +30,4 @@ function onNavigatingTo(args) {
     page.bindingContext = viewModel;
 }
 
-exports.onNavigatingTo = onNavigatingTo;
-exports.onGoBackTap = onGoBackTap;
+export { onNavigatingTo, onGoBackTap };
