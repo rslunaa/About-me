@@ -1,9 +1,14 @@
-export function onGoBackTap (args) {
+// skills-page.js
+const observableModule = require("tns-core-modules/data/observable");
+const frameModule = require("tns-core-modules/ui/frame");
+
+export function onGoBackTap(args) {
     const button = args.object;
     const page = button.page;
-  
-    page.frame.navigate('main-page');
-  };
+
+    const topmost = frameModule.topmost();
+    topmost.navigate('main-page');
+}
 
 function onNavigatingTo(args) {
     const page = args.object;
