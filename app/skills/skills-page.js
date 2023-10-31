@@ -10,7 +10,7 @@ export function onGoBackTap(args) {
     topmostFrame.navigate('main-page');
 }
 
-function onNavigatingTo(args) {
+export function onNavigatingTo(args) {
     const page = args.object;
     const viewModel = fromObject({
         skills: [
@@ -29,5 +29,3 @@ function onNavigatingTo(args) {
     });
     page.bindingContext = viewModel;
 }
-
-export { onNavigatingTo, onGoBackTap };
