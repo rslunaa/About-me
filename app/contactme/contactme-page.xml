@@ -1,3 +1,4 @@
+<!-- contactme-page.xml -->
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" class="page">
     <Page.actionBar>
         <actionBar title="Ricardo Luna"></actionBar>
@@ -9,18 +10,18 @@
                 <GridLayout rows="auto, auto">
                     <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
                     <StackLayout row="1" class="button-container">
-                        <!-- Closing tag for StackLayout was added -->
+                        <!-- Add your contact form inputs here -->
+                        <TextField hint="Name" class="input"></TextField>
+                        <TextField hint="Email" keyboardType="email" class="input"></TextField>
+                        <TextField hint="Contact Message" class="input" height="100"></TextField>
+                        <Button text="Submit" onTap="onSubmitTap" class="main-button submit-button"></Button>
                     </StackLayout>
                 </GridLayout>
             </ScrollView>
         </StackLayout>
 
-        <StackLayout row="2" class="content">
-            <!-- Closing tag for StackLayout was added -->
-            <!-- Add additional content here if needed -->
+        <StackLayout row="2" class="button-container">
+            <Button text="Go Back" onTap="onGoBackTap" class="main-button goback-button"></Button>
         </StackLayout>
-
-        <!-- Closing tag for GridLayout was added -->
-        <Button text="Go Back" onTap="onGoBackTap" class="main-button goback-button"></Button>
     </GridLayout>
 </Page>
