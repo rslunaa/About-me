@@ -13,7 +13,7 @@
         </StackLayout>
 
         <!-- Content Section -->
-        <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center">
+            <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center" height="300">
             <ListView id="myListView">
                 <ListView.itemTemplate>
                     <StackLayout orientation="horizontal">
