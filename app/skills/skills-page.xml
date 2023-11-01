@@ -1,4 +1,3 @@
-<!-- skills-page.xml -->
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" class="page">
     <Page.actionBar>
         <ActionBar title="Ricardo Luna"></ActionBar>
@@ -6,27 +5,26 @@
 
     <GridLayout rows="auto, *, auto">
         <!-- Snapshot and Name Section -->
-        <StackLayout row="0" class="header">
+        <StackLayout row="1" class="header">
             <ScrollView>
                 <GridLayout rows="auto, auto">
-                    <Label text="Skills" class="header-label"></Label>
-                            <StackLayout class="snapshot-container">
-                            <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
-            </StackLayout>
-                            <ListView items="{{ skills }}">
-                <ListView.itemTemplate>
-                    <StackLayout class="skill-item" rows="auto" orientation="horizontal">
-                        <Label class="skill-category" text="{{ category }}"/>
-                        <Label class="skill-name" text="{{ skill }}"/>
+                    <!-- Move the snapshot container outside the GridLayout -->
+                    <StackLayout class="snapshot-container">
+                        <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
+                        <Label text="Skills" class="header-label"></Label>
                     </StackLayout>
-                </ListView.itemTemplate>
-            </ListView>
+                    <ListView items="{{ skills }}">
+                        <ListView.itemTemplate>
+                            <StackLayout class="skill-item" rows="auto" orientation="horizontal">
+                                <Label class="skill-category" text="{{ category }}"/>
+                                <Label class="skill-name" text="{{ skill }}"/>
+                            </StackLayout>
+                        </ListView.itemTemplate>
+                    </ListView>
                 </GridLayout>
             </ScrollView>
         </StackLayout>
 
-
-        <!-- Buttons Section -->
         <StackLayout row="2" class="button-container">
             <Button text="Go Back" onTap="onGoBackTap" class="main-button goback-button"></Button>
         </StackLayout>
