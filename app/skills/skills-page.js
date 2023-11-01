@@ -2,7 +2,7 @@
 const ObservableArray = require("@nativescript/core/data/observable-array").ObservableArray;
 const frameModule = require('@nativescript/core/ui/frame');
 
-exports.pageLoaded = function(args) {
+exports.onLoaded = function(args) {
     const page = args.object;
     const listView = page.getViewById("myListView");
         const itemList = new ObservableArray([
