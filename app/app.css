@@ -59,7 +59,10 @@
   color: white;
 }
 
-
+.submit-button{
+  background: linear-gradient(to right, #2ecc71, #004b23); /* Green to dark green gradient */
+  color: white; 
+}
 
 /* .content {
   /* Add styles for additional content if needed */

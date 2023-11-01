@@ -11,9 +11,18 @@
                     <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
                     <StackLayout row="1" class="button-container">
                         <!-- Add your contact form inputs here -->
-                        <TextField hint="Name" class="input"></TextField>
-                        <TextField hint="Email" keyboardType="email" class="input"></TextField>
-                        <TextField hint="Contact Message" class="input" height="100"></TextField>
+                        <StackLayout class="form-group">
+                            <Label text="Name" class="label"></Label>
+                            <TextField hint="Enter your name" class="input"></TextField>
+                        </StackLayout>
+                        <StackLayout class="form-group">
+                            <Label text="Email" class="label"></Label>
+                            <TextField hint="Enter your email" keyboardType="email" class="input"></TextField>
+                        </StackLayout>
+                        <StackLayout class="form-group">
+                            <Label text="Contact Message" class="label"></Label>
+                            <TextField hint="Type your message" class="input" height="100"></TextField>
+                        </StackLayout>
                         <Button text="Submit" onTap="onSubmitTap" class="main-button submit-button"></Button>
                     </StackLayout>
                 </GridLayout>
