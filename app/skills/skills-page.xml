@@ -10,14 +10,10 @@
             <ScrollView>
                 <GridLayout rows="auto, auto">
                     <Label text="Skills" class="header-label"></Label>
-                                        <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
-                </GridLayout>
-            </ScrollView>
-        </StackLayout>
-
-        <!-- Content Section -->
-        <StackLayout row="1" class="content">
-            <ListView items="{{ skills }}">
+                            <StackLayout class="snapshot-container">
+                            <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
+            </StackLayout>
+                            <ListView items="{{ skills }}">
                 <ListView.itemTemplate>
                     <StackLayout class="skill-item" rows="auto" orientation="horizontal">
                         <Label class="skill-category" text="{{ category }}"/>
@@ -25,7 +21,10 @@
                     </StackLayout>
                 </ListView.itemTemplate>
             </ListView>
+                </GridLayout>
+            </ScrollView>
         </StackLayout>
+
 
         <!-- Buttons Section -->
         <StackLayout row="2" class="button-container">
