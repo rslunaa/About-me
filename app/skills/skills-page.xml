@@ -9,8 +9,8 @@
         <StackLayout row="0" class="header">
             <ScrollView>
                 <GridLayout rows="auto, auto">
-                    <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
                     <Label text="Skills" class="header-label"></Label>
+                                        <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
                 </GridLayout>
             </ScrollView>
         </StackLayout>
@@ -19,10 +19,10 @@
         <StackLayout row="1" class="content">
             <ListView items="{{ skills }}">
                 <ListView.itemTemplate>
-                    <GridLayout class="skill-item" rows="auto">
-                        <Label text="{{ category }}" class="skill-category"></Label>
-                        <Label text="{{ skill }}" class="skill-name"></Label>
-                    </GridLayout>
+                    <StackLayout class="skill-item" rows="auto" orientation="horizontal">
+                        <Label class="skill-category" text="{{ category }}"/>
+                        <Label class="skill-name" text="{{ skill }}"/>
+                    </StackLayout>
                 </ListView.itemTemplate>
             </ListView>
         </StackLayout>
