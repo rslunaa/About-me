@@ -64,5 +64,20 @@
   color: white; 
 }
 
-/* .content {
-  /* Add styles for additional content if needed */
+.form-group {
+  padding: 10; /* Adjust the padding as needed */
+  background-color: white;
+}
+
+.label {
+  font-size: 16;
+  color: #333;
+}
+
+.input {
+  border-width: 1;
+  border-color: #ccc;
+  border-radius: 5;
+  padding: 10;
+  margin-top: 5; /* Adjust the margin as needed */
+}
