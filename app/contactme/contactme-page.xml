@@ -9,7 +9,7 @@
             <ScrollView>
                 <GridLayout rows="auto, auto">
                     <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
-                    <Label text="Contact Me" class="header-label" horizontalAlignment="center" marginTop="70"></Label>
+                    <Label text="Contact Me" class="header-label" horizontalAlignment="center" marginTop="105"></Label>
                     <StackLayout row="1" class="button-container">
                         <!-- Add your contact form inputs here -->
                         <StackLayout class="form-group">
