@@ -5,22 +5,26 @@
 
     <GridLayout rows="auto, *, auto">
         <!-- Snapshot and Name Section -->
-        <!-- Content Section -->
         <StackLayout row="0" class="content" verticalAlignment="center" horizontalAlignment="center">
             <StackLayout class="snapshot-container">
-                    <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
-                    <Label text="Skills" class="header-label" horizontalAlignment="center"></Label>
+                <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
+                <Label text="Skills" class="header-label" horizontalAlignment="center"></Label>
             </StackLayout>
-                    <ListView id = "myListView">
-                        <ListView.itemTemplate>
-                            <StackLayout orientation="horizontal">
-                                <Label class="skill-category" text="{{ category }}"/>
-                                <Label class="skill-name" text="{{ skill }}"/>
-                            </StackLayout>
-                        </ListView.itemTemplate>
-                    </ListView>
         </StackLayout>
 
+        <!-- Content Section -->
+        <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center">
+            <ListView id="myListView">
+                <ListView.itemTemplate>
+                    <StackLayout orientation="horizontal">
+                        <Label class="skill-category" text="{{ category }}"/>
+                        <Label class="skill-name" text="{{ skill }}"/>
+                    </StackLayout>
+                </ListView.itemTemplate>
+            </ListView>
+        </StackLayout>
+
+        <!-- Buttons Section -->
         <StackLayout row="2" class="button-container">
             <Button text="Go Back" onTap="onGoBackTap" class="main-button goback-button"></Button>
         </StackLayout>
