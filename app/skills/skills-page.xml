@@ -5,24 +5,20 @@
 
     <GridLayout rows="auto, *, auto">
         <!-- Snapshot and Name Section -->
-        <StackLayout row="1" class="header">
-            <ScrollView>
-                <GridLayout rows="auto, auto">
-                    <!-- Move the snapshot container outside the GridLayout -->
-                    <StackLayout class="snapshot-container">
-                        <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
-                        <Label text="Skills" class="header-label"></Label>
-                    </StackLayout>
-                    <ListView items="{{ skills }}">
+        <!-- Content Section -->
+        <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center">
+            <StackLayout class="snapshot-container">
+                    <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
+                    <Label text="Skills" class="header-label"></Label>
+            </StackLayout>
+                    <ListView id = "myListView">
                         <ListView.itemTemplate>
-                            <StackLayout class="skill-item" rows="auto" orientation="horizontal">
+                            <StackLayout orientation="horizontal">
                                 <Label class="skill-category" text="{{ category }}"/>
                                 <Label class="skill-name" text="{{ skill }}"/>
                             </StackLayout>
                         </ListView.itemTemplate>
                     </ListView>
-                </GridLayout>
-            </ScrollView>
         </StackLayout>
 
         <StackLayout row="2" class="button-container">
