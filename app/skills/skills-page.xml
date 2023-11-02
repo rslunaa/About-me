@@ -1,7 +1,7 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" class="page">
-    <Page.css>
+    <!-- <Page.css>
         <cssFile src="~/skills/skills-page.css"/>
-    </Page.css>
+    </Page.css> -->
     <Page.actionBar>
         <ActionBar title="Ricardo Luna"></ActionBar>
     </Page.actionBar>
