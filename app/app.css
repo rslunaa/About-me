@@ -88,6 +88,7 @@
 
 .list-view {
   width: 90%;
+  background-color: #004b23
 }
 
 .skill-item {
@@ -97,7 +98,7 @@
 }
 
 .category, .skill {
-  color: #333;
+  color: #ffffff;
   font-size: 16;
   width: 50%;
 }
