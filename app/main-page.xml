@@ -1,7 +1,8 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd" loaded = "onLoaded" class="page">
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" class="page">
     <Page.actionBar>
-    <actionBar title="Ricardo Luna"></actionBar>
+        <ActionBar title="Ricardo Luna"></ActionBar>
     </Page.actionBar>
+
     <GridLayout rows="auto, auto, *">
         <!-- Snapshot and Name Section -->
         <StackLayout row="0" class="header">
@@ -13,11 +14,11 @@
         </StackLayout>
 
         <!-- Buttons Section -->
-<StackLayout row="1" class="button-container">
-        <Button text="About Me" onTap="onAboutMeTap" class="main-button about-button"></Button>
-        <Button text="Skills" onTap="onSkillsTap" class="main-button skills-button"></Button>
-        <Button text="Contact Me" onTap="onContactMeTap" class="main-button contact-button"></Button>
-    </StackLayout>
+        <StackLayout row="1" class="button-container">
+            <Button text="About Me" onTap="onAboutMeTap" class="main-button about-button"></Button>
+            <Button text="Skills" onTap="onSkillsTap" class="main-button skills-button"></Button>
+            <Button text="Contact Me" onTap="onContactMeTap" class="main-button contact-button"></Button>
+        </StackLayout>
 
         <!-- Content Section -->
         <StackLayout row="2" class="content">
