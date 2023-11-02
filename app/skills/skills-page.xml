@@ -1,7 +1,4 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" class="page">
-<!-- <Page.css>
-    <cssFile src="~/app/skills/skills-page.css"/>
-</Page.css> -->
     <Page.actionBar>
         <ActionBar title="Ricardo Luna"></ActionBar>
     </Page.actionBar>
@@ -20,9 +17,9 @@
             <Label text="My Skills" class="header-label" horizontalAlignment="center"/>
             <ListView id="mySkillsListView" class="list-view">
                 <ListView.itemTemplate>
-                    <StackLayout orientation="horizontal" class="list-item">
-                        <Label class="skill-category" text="{{ category }}"/>
-                        <Label class="skill-name" text="{{ skill }}"/>
+                    <StackLayout orientation="horizontal" class="skill-item">
+                        <Label class="category" text="{{ category }}"/>
+                        <Label class="skill" text="{{ skill }}"/>
                     </StackLayout>
                 </ListView.itemTemplate>
             </ListView>
