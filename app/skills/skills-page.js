@@ -2,7 +2,7 @@
 const ObservableArray = require("@nativescript/core/data/observable-array").ObservableArray;
 const frameModule = require("@nativescript/core/ui/frame");
 
-exports.onLoaded = function(args) {
+export function onLoaded (args) {
     const page = args.object;
     const listView = page.getViewById("mySkillsListView");
 

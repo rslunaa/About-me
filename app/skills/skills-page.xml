@@ -18,8 +18,8 @@
             <ListView id="mySkillsListView">
                 <ListView.itemTemplate>
                     <StackLayout orientation="horizontal">
-                        <Label class="skill-category" text="{{ category }}"/>
-                        <Label class="skill-name" text="{{ skill }}"/>
+                        <Label class="text-xl" text="{{ category }}"/>
+                        <Label class="text-xl" text="{{ skill }}"/>
                     </StackLayout>
                 </ListView.itemTemplate>
             </ListView>
