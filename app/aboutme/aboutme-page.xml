@@ -7,8 +7,7 @@
         <!-- Snapshot and Name Section -->
         <!-- Content Section -->
         <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center">
-            <StackLayout class="snapshot-container">
-                <Image src="~/snapshot/LunaRicardoProfessionalPhoto.jpg" width="150" height="150" class="snapshot" borderRadius="100" marginTop="05"></Image>
+                <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
             </StackLayout>
             <Label text="About Me" class="header-label" fontSize="20" marginTop="10" horizontalAlignment="center"></Label>
             <Label textWrap="true" text="Passionate about leveraging the power of information technology to drive social and economic development, with a dedicated focus on empowering emerging communities and fostering growth." class="bio" marginTop="2" horizontalAlignment="center" margin="10" textAlignment="center"></Label>
