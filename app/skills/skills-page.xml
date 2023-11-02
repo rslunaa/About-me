@@ -14,12 +14,12 @@
 
         <!-- Content Section -->
         <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center">
-            <Label text="My Skills" horizontalAlignment="center"/>
-            <ListView id="mySkillsListView">
+            <Label text="My Skills" class="header-text" horizontalAlignment="center"/>
+            <ListView id="mySkillsListView" class="list-view">
                 <ListView.itemTemplate>
-                    <StackLayout orientation="horizontal">
-                        <Label class="text-xl" text="{{ category }}"/>
-                        <Label class="text-xl" text="{{ skill }}"/>
+                    <StackLayout orientation="horizontal" class="list-item">
+                        <Label class="category" text="{{ category }}"/>
+                        <Label class="skill" text="{{ skill }}"/>
                     </StackLayout>
                 </ListView.itemTemplate>
             </ListView>
