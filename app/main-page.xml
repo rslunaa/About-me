@@ -19,6 +19,7 @@
                 </GridLayout>
             </ScrollView>
         </StackLayout>
+         </StackLayout>
         <!-- Content Section -->
         <StackLayout row="2" class="content">
             <!-- Add additional content here if needed -->
