@@ -16,7 +16,7 @@
 }
 
 .snapshot {
-    width: 100;
+    width: 100dp; /* Add the unit for device-independent pixels */
     height: 100;
     border-radius: 50;
     margin-bottom: 10;
@@ -68,7 +68,8 @@
     border-color: #ccc;
 }
 
-.skill-category, .skill-name {
+.skill-category,
+.skill-name {
     color: #333;
     font-size: 16;
     width: 50%;
