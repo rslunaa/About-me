@@ -101,10 +101,9 @@
   color: #ffffff;
   font-size: 16;
   width: 50%;
-  align-items: center;
+  text-align: center; /* Center text horizontally */
 }
 
 .category {
   font-weight: bold;
-  align-items: center;
 }

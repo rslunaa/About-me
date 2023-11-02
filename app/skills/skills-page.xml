@@ -8,7 +8,7 @@
         <StackLayout row="0" class="content" verticalAlignment="center" horizontalAlignment="center">
             <StackLayout class="snapshot-container">
                 <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
-                <Label text="Skills" class="header-label" horizontalAlignment="center" marginTop="15"></Label>
+                <Label text="Skills" class="header-label" horizontalAlignment="center"></Label>
             </StackLayout>
         </StackLayout>
 
@@ -16,9 +16,9 @@
         <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center" marginTop="15">
             <ListView id="mySkillsListView" class="list-view">
                 <ListView.itemTemplate>
-                    <StackLayout orientation="horizontal" class="skill-item" horizontalAlignment="center">
-                        <Label class="category" horizontalAlignment="center" text="{{ category }}"/>
-                        <Label class="skill" horizontalAlignment="center" text="{{ skill }}"/>
+                    <StackLayout orientation="horizontal" class="skill-item">
+                        <Label class="category" text="{{ category }}" horizontalAlignment="center"/>
+                        <Label class="skill" text="{{ skill }}" horizontalAlignment="center"/>
                     </StackLayout>
                 </ListView.itemTemplate>
             </ListView>
