@@ -8,17 +8,22 @@ export function onLoaded (args) {
 
         const itemList = new ObservableArray([
 
-            { category: "Programming Skills", skill: "Java" },
-            { category: "Programming Skills", skill: "Python" },
-            { category: "Programming Skills", skill: "C#" },
-            { category: "Programming Skills", skill: "Visual Basic" },
-            { category: "Cybersecurity Skills", skill: "Cybersecurity Fundamentals" },
-            { category: "Cybersecurity Skills", skill: "Network Security & Data Protection" },
-            { category: "Cybersecurity Skills", skill: "Cloud Security" },
+            { category: "Programming Skills"},
+            { skill: "Java" },
+            { skill: "Python" },
+            { skill: "C#" },
+            { skill: "Visual Basic" },
+            {},
+            { category: "Cybersecurity Skills" },
+            { skill: "Cybersecurity Fundamentals" },
+            { skill: "Network Security & Data Protection" },
+            { skill: "Cloud Security" },
             { category: "Soft Skills", skill: "Collaboration and Teamwork" },
-            { category: "Soft Skills", skill: "Troubleshooting and Testing" },
-            { category: "Soft Skills", skill: "Problem Solving" },
-            { category: "Soft Skills", skill: "Critical Thinking" },
+            {},
+            { category: "Soft Skills" },
+            { skill: "Troubleshooting and Testing" },
+            { skill: "Problem Solving" },
+            { skill: "Critical Thinking" },
         ]);
         listView.items = itemList;
 }
