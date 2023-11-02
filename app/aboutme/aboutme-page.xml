@@ -1,14 +1,12 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" class="page">
     <Page.actionBar>
-        <actionBar title="Ricardo Luna"></actionBar>
+        <ActionBar title="Ricardo Luna"></ActionBar>
     </Page.actionBar>
 
     <GridLayout rows="auto, *, auto">
         <!-- Snapshot and Name Section -->
-        <!-- Content Section -->
-        <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center">
-                <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
-            </StackLayout>
+        <StackLayout row="0" class="content" verticalAlignment="center" horizontalAlignment="center">
+            <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
             <Label text="About Me" class="header-label" fontSize="20" marginTop="10" horizontalAlignment="center"></Label>
             <Label textWrap="true" text="Passionate about leveraging the power of information technology to drive social and economic development, with a dedicated focus on empowering emerging communities and fostering growth." class="bio" marginTop="2" horizontalAlignment="center" margin="10" textAlignment="center"></Label>
 
