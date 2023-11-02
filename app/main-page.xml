@@ -6,14 +6,18 @@
         <StackLayout row="0" class="header">
             <ScrollView>
                 <GridLayout rows="auto, auto">
-                    <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
-                    <Label text="Ricardo Luna" class="header-label"></Label>
-                    <Label text="CIS Student/Tutor" class="subheader-label"></Label>
-                    <StackLayout row="1" class="button-container">
-                        <!-- Add your contact form inputs here -->
-                        <Button text="About Me" onTap="onAboutMeTap" class="main-button about-button"></Button>
-                        <Button text="Skills" onTap="onSkillsTap" class="main-button skills-button"></Button>
-                        <Button text="Contact Me" onTap="onContactMeTap" class="main-button contact-button"></Button>
+                    <StackLayout row="0" class="image-container">
+                        <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
+                    </StackLayout>
+                    <StackLayout row="1" class="text-container">
+                        <Label text="Ricardo Luna" class="header-label"></Label>
+                        <Label text="CIS Student/Tutor" class="subheader-label"></Label>
+                        <StackLayout class="button-container">
+                            <!-- Add your contact form inputs here -->
+                            <Button text="About Me" onTap="onAboutMeTap" class="main-button about-button"></Button>
+                            <Button text="Skills" onTap="onSkillsTap" class="main-button skills-button"></Button>
+                            <Button text="Contact Me" onTap="onContactMeTap" class="main-button contact-button"></Button>
+                        </StackLayout>
                     </StackLayout>
                 </GridLayout>
             </ScrollView>
