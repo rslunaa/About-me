@@ -7,7 +7,14 @@
         <!-- Snapshot and Name Section -->
         <StackLayout row="0" class="content" verticalAlignment="center" horizontalAlignment="center">
             <StackLayout class="snapshot-container">
-                 <Label text = "My Skills" horizontalAlignment = "center"/>
+                <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
+                <Label text="Skills" class="header-label" horizontalAlignment="center"></Label>
+            </StackLayout>
+        </StackLayout>
+
+        <!-- Content Section -->
+        <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center">
+            <Label text="My Skills" horizontalAlignment="center"/>
             <ListView id="mySkillsListView">
                 <ListView.itemTemplate>
                     <StackLayout orientation="horizontal">
@@ -16,11 +23,7 @@
                     </StackLayout>
                 </ListView.itemTemplate>
             </ListView>
-            </StackLayout>
         </StackLayout>
-
-        <!-- Content Section -->
-
 
         <!-- Buttons Section -->
         <StackLayout row="2" class="button-container">
