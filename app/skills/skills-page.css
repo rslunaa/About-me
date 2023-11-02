@@ -1,0 +1,79 @@
+/* skills-page.css */
+
+.page {
+    background-color: #004b23; /* Maintain the green background color */
+    align-items: center;
+}
+
+.header {
+    padding: 20;
+    text-align: center;
+}
+
+.subheader-label {
+    color: white;
+    font-size: 18; /* Adjust the font size for the subheader */
+}
+
+.snapshot {
+    width: 100;
+    height: 100;
+    border-radius: 50;
+    margin-bottom: 10;
+}
+
+.header-label {
+    color: white;
+    font-size: 24;
+    font-weight: bold;
+}
+
+.button-container {
+    padding: 20;
+    align-items: center;
+}
+
+.main-button {
+    width: 200;
+    height: 60;
+    margin: 10;
+    border-radius: 10;
+    font-size: 18;
+}
+
+.goback-button {
+    background: linear-gradient(to right, #2ecc71, #004b23); /* Green to dark green gradient */
+    color: white;
+}
+
+.submit-button {
+    background: linear-gradient(to right, #041d0e, #004b23); /* Green to dark green gradient */
+    color: white;
+    width: 100;
+    height: 50;
+    font-weight: bold;
+}
+
+/* Add specific styles for the skills-page */
+.skills-content {
+    background-color: #fff; /* White background for skills content */
+    border-radius: 10;
+    overflow: hidden;
+    margin: 10;
+}
+
+.skill-item {
+    padding: 15;
+    border-bottom-width: 1;
+    border-color: #ccc;
+}
+
+.skill-category, .skill-name {
+    color: #333;
+    font-size: 16;
+    width: 50%;
+}
+
+.skill-category {
+    font-weight: bold;
+}
