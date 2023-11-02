@@ -8,7 +8,7 @@
         <StackLayout row="0" class="content" verticalAlignment="center" horizontalAlignment="center">
             <StackLayout class="snapshot-container">
                 <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxn1BpQ3JIokq8GJZnholmazDOFk72qdZorxWHFsQ5O8Tx2RR4S5eJ9vx1cmL4LbTXB0&amp;usqp=CAU" class="snapshot"></Image>
-                <Label text="Skills" class="header-label" horizontalAlignment="center" marginTop = "15"></Label>
+                <Label text="Skills" class="header-label" horizontalAlignment="center" marginTop="15"></Label>
             </StackLayout>
         </StackLayout>
 
