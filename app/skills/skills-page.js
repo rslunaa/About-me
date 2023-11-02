@@ -17,7 +17,7 @@ export function onLoaded (args) {
             { skill: "Cybersecurity Fundamentals" },
             { skill: "Network Security & Data Protection" },
             { skill: "Cloud Security" },
-            { category: "Soft Skills", skill: "Collaboration and Teamwork" },
+            { skill: "Collaboration and Teamwork" },
             { category: "Soft Skills" },
             { skill: "Troubleshooting and Testing" },
             { skill: "Problem Solving" },
