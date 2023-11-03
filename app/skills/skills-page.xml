@@ -16,7 +16,7 @@
         <Label text="Skills" class="header-label" horizontalAlignment="center" marginTop="15"></Label>
             <ListView id="mySkillsListView" class="list-view">
                 <ListView.itemTemplate>
-                    <StackLayout orientation="horizontal" class="skill-item">
+                    <StackLayout orientation="vertical" class="skill-item">
                         <Label class="category" text="{{ category }}" horizontalAlignment="center"/>
                         <Label class="skill" text="{{ skill }}" horizontalAlignment="center"/>
                     </StackLayout>
